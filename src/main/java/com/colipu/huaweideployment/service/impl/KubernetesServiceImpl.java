@@ -46,7 +46,7 @@ public class KubernetesServiceImpl implements IKubernetesService {
 
 
 //       the CoreV1Api loads default api-client from global configuration.
-        CoreV1Api apiCore = new CoreV1Api();
+//        CoreV1Api apiCore = new CoreV1Api();
 
         AppsV1Api apiApps = new AppsV1Api();
 
